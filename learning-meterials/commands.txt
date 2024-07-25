@@ -24,3 +24,5 @@ ctrl+c -> to stop django server
 
 python manage.py makemigrations learning_api
 python manage.py migrate
+
+python manage.py createsuperuser
