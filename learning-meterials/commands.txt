@@ -1,0 +1,12 @@
+Vagrant Commands
+
+vagrant up
+vagrant ssh
+close
+
+
+Ubuntu Commands
+cd /vagrant/
+python -m venv ~/env
+source ~/env/bin/activate
+deactivate
