@@ -1,0 +1,85 @@
+---------------------------------Vagrant Commands Cheat Sheet---------------------------------
+----> Initialization and Setup ---------------------------------------------------------------
+
+    Initialize a new Vagrant environment with a Vagrantfile:
+        vagrant init [box_name] [box_url]
+        Example: vagrant init ubuntu/bionic64
+
+    Add a box to your local Vagrant environment:
+        vagrant box add [box_name] [box_url]
+        Example: vagrant box add ubuntu/bionic64
+
+
+----> Managing VMs ---------------------------------------------------------------------------
+
+    Start and provision the Vagrant environment:
+        vagrant up
+
+    Shut down the Vagrant machine:
+        vagrant halt
+
+    Destroy the Vagrant machine:
+        vagrant destroy
+
+    Reload the Vagrant machine (restarts the VM and loads new Vagrantfile configurations):
+        vagrant reload
+
+    Suspend the Vagrant machine (saves the state):
+        vagrant suspend
+
+    Resume a suspended Vagrant machine:
+        vagrant resume
+
+
+----> SSH and Network ------------------------------------------------------------------------
+
+    SSH into the Vagrant machine:
+        vagrant ssh
+
+    Show the status of the Vagrant machine:
+        vagrant status
+
+    List all Vagrant machines:
+        vagrant global-status
+
+
+----> Boxes and Plugins ----------------------------------------------------------------------
+
+    List all available boxes:
+        vagrant box list
+
+    Remove a box:
+        vagrant box remove [box_name]
+
+    Update Vagrant box to the latest version:
+        vagrant box update
+
+    Install a Vagrant plugin:
+        vagrant plugin install [plugin_name]
+
+    List installed Vagrant plugins:
+        vagrant plugin list
+
+    Uninstall a Vagrant plugin:
+        vagrant plugin uninstall [plugin_name]
+
+
+----> Provisioning ---------------------------------------------------------------------------
+
+    Provision the Vagrant machine:
+        vagrant provision
+
+
+----> Synced Folders
+
+    Force Vagrant to re-sync shared folders:
+        vagrant rsync
+
+
+----> Version and Help -----------------------------------------------------------------------
+
+    Show Vagrant version:
+        vagrant --version
+
+    Show help for Vagrant commands:
+        vagrant help
