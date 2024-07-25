@@ -174,8 +174,6 @@ cython_debug/
 ### Vagrant ###
 # General
 .vagrant/
-.vagrant/machines/
-.vagrant/rgloader/
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.logs
 
