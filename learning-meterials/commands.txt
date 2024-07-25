@@ -1,11 +1,11 @@
-Vagrant Commands
+--------------Vagrant Commands
 
 vagrant up
 vagrant ssh
 close
 
 
-Ubuntu Commands
+--------------Ubuntu Commands
 
 cd /vagrant/
 python -m venv ~/env
@@ -13,7 +13,11 @@ source ~/env/bin/activate
 deactivate
 
 
-Django Commands
+--------------Django Commands
 
 django-admin.py startproject learning_project .
 python manage.py startapp learning_api
+python manage.py runserver 0.0.0.0:8000
+
+http://127.0.0.1:8000/ -> local host url
+ctrl+c -> to stop django server
