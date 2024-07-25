@@ -185,4 +185,4 @@ eb-package.zip
 static/
 
 # Temp folder contains credentials and junk data
-temp_locals/
+.temp_locals/
